@@ -1,4 +1,5 @@
 let todo = "";
+cost list = [];
 const todoList = document.querySelector("#todoList");
 const sectionTag = document.querySelector("section");
 
@@ -7,6 +8,7 @@ document.querySelector('#todoListForm').addEventListener("submit",function(event
 
     todo = todoList.value;
     console.log(todo.length)
+    list.push();
     for(let i = 0; i < todo.length; i++){
 
 }
